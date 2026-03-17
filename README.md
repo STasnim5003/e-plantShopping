@@ -1,3 +1,4 @@
+# e-plantShopping
 ## Paradise Nursery Shopping Application
 
 An interactive e-commerce web application for a plant shop called **Paradise Nursery**.  

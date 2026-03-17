@@ -12,14 +12,16 @@ function App() {
         <Link to="/" style={{ color: 'white', margin: '10px' }}>Home</Link>
         <Link to="/plants" style={{ color: 'white', margin: '10px' }}>Plants</Link>
         <Link to="/cart" style={{ color: 'white', margin: '10px' }}>Cart</Link>
+        <Link to="/about" style={{ color: 'white', margin: '10px' }}>About Us</Link>
       </nav>
       <Routes>
         <Route path="/" element={
           <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <h1>Welcome to Paradise Nursery</h1>
-            <Link to="/plants">
-              <button className="get-started-button">Get Started</button>
-            </Link>
+            <p>Welcome to Paradise Nursery — your one-stop shop for beautiful houseplants.</p>
+<h1>Welcome to Paradise Nursery</h1>
+<Link to="/plants">
+  <button className="get-started-button">Get Started</button>
+</Link>
           </div>
         } />
         <Route path="/about" element={<AboutUs />} />
